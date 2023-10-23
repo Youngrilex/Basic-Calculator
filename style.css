@@ -1,0 +1,52 @@
+body{
+ background-image: url('https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=826&t=st=1698062256~exp=1698062856~hmac=607178fc46c9ce7d7b0ce83cd73af2531282cf496f93146c93b6836201dd9b92');
+ background-repeat: no-repeat;
+ background-position: center, center;
+ width: 100%;
+ height: 100vh;
+ background-size: cover;
+}
+
+#text{
+ color: aliceblue;
+ text-align: center;
+ border: 3px solid rgb(63, 255, 111);
+ padding: 5px;
+ margin: 50px 200px;
+ border-radius: 15px;
+ box-shadow: rgba(255, 85, 85, 0.5) 5px 5px 25px;
+}
+
+.app-container {
+  margin-left: 100px;
+  width: 400px;
+  height: 400px;
+}
+
+.calculator { 
+  position: center, center;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+}
+
+.display{
+  background-color: rgb(63, 255, 111);
+  grid-column-start:1;
+  grid-column-end:5;
+  height: 50px;
+  font-size: 40px;
+  text-align: right;
+  border: 2px solid white;
+  padding-right: 10px;
+  padding-top:5px;
+}
+
+button {
+  height: 50px;
+  background-color: white;
+  border: 1px solid rgb(63, 255, 111);
+}
+
+button.operator{
+  background-color: rgb(63, 255, 111);
+}
